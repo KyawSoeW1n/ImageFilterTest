@@ -1,4 +1,4 @@
-package kurio_tetsuya.imagefiltertest.Fragment;
+package kurio_tetsuya.imagefiltertest.fragment;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

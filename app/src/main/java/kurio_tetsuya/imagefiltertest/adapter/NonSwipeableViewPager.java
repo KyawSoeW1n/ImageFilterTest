@@ -1,4 +1,4 @@
-package kurio_tetsuya.imagefiltertest.Adapter;
+package kurio_tetsuya.imagefiltertest.adapter;
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;

@@ -1,4 +1,4 @@
-package kurio_tetsuya.imagefiltertest.Activity;
+package kurio_tetsuya.imagefiltertest.activity;
 import android.Manifest;
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -19,8 +19,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
-import com.github.amlcurran.showcaseview.ShowcaseView;
-import com.github.amlcurran.showcaseview.targets.ActionViewTarget;
+//import com.github.amlcurran.showcaseview.ShowcaseView;
+//import com.github.amlcurran.showcaseview.targets.ActionViewTarget;
 import com.karumi.dexter.Dexter;
 import com.karumi.dexter.MultiplePermissionsReport;
 import com.karumi.dexter.PermissionToken;
@@ -36,10 +36,10 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import kurio_tetsuya.imagefiltertest.Fragment.EditImageFragment;
-import kurio_tetsuya.imagefiltertest.Fragment.FiltersListFragment;
+import kurio_tetsuya.imagefiltertest.fragment.EditImageFragment;
+import kurio_tetsuya.imagefiltertest.fragment.FiltersListFragment;
 import kurio_tetsuya.imagefiltertest.R;
-import kurio_tetsuya.imagefiltertest.Utils.BitMapUtils;
+import kurio_tetsuya.imagefiltertest.utils.BitMapUtils;
 
 public class MainActivity extends AppCompatActivity implements FiltersListFragment.FiltersListFragmentListener, EditImageFragment.EditImageFragmentListener {
 

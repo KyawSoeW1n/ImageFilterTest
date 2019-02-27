@@ -1,4 +1,4 @@
-package kurio_tetsuya.imagefiltertest.Utils;
+package kurio_tetsuya.imagefiltertest.utils;
 
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;

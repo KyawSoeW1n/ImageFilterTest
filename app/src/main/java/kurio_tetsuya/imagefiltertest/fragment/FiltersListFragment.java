@@ -1,4 +1,4 @@
-package kurio_tetsuya.imagefiltertest.Fragment;
+package kurio_tetsuya.imagefiltertest.fragment;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -20,11 +20,11 @@ import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import kurio_tetsuya.imagefiltertest.Adapter.ThumbnailsAdapter;
-import kurio_tetsuya.imagefiltertest.Utils.BitMapUtils;
-import kurio_tetsuya.imagefiltertest.Activity.MainActivity;
+import kurio_tetsuya.imagefiltertest.adapter.ThumbnailsAdapter;
+import kurio_tetsuya.imagefiltertest.utils.BitMapUtils;
+import kurio_tetsuya.imagefiltertest.activity.MainActivity;
 import kurio_tetsuya.imagefiltertest.R;
-import kurio_tetsuya.imagefiltertest.Utils.SpacesItemDecoration;
+import kurio_tetsuya.imagefiltertest.utils.SpacesItemDecoration;
 
 
 public class FiltersListFragment extends Fragment implements ThumbnailsAdapter.ThumbnailsAdapterListener {

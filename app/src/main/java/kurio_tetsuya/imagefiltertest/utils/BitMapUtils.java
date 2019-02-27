@@ -1,4 +1,4 @@
-package kurio_tetsuya.imagefiltertest.Utils;
+package kurio_tetsuya.imagefiltertest.utils;
 
 import android.content.ContentResolver;
 import android.content.ContentUris;
@@ -120,10 +120,10 @@ public class BitMapUtils {
 
     /**
      * Storing image to device gallery
-     * @param cr
-     * @param source
-     * @param title
-     * @param description
+     * @param cr contentResolver
+     * @param source source
+     * @param title title
+     * @param description description
      * @return
      */
     public static final String insertImage(ContentResolver cr,
